@@ -1,3 +1,6 @@
+def areSimilar(a, b):
+    counter = 0
+    
     if sorted(a) != sorted(b):
         return False
     for i in range(len(a)):
