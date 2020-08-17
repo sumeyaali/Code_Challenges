@@ -1,17 +1,17 @@
- def growingPlant(upSpeed, downSpeed, desiredHeight):
+def growingPlant(upSpeed, downSpeed, desiredHeight):
     days = 0
-    # what we gain every day
+# what we gain every day
     height = 0
-    # print(height)
-    # how many days does it take to reach desiredHeight
+# print(height)
+# how many days does it take to reach desiredHeight
 
     while height < desiredHeight:
-        print(height)
-        height += upSpeed 
-        if height < desiredHeight:
-            height -= downSpeed
-        days += 1  
-        # print(days)
+    print(height)
+    height += upSpeed 
+    if height < desiredHeight:
+        height -= downSpeed
+    days += 1  
+    # print(days)
     return days
 
 # day 1: 6-5 -> 1
