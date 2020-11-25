@@ -1,4 +1,5 @@
-// You can see this Input: flightLength movies Output: boolean True if there exists TWO different movies that add up EXACTLY to the flightLength Examples: flightLength 160  Movies [80, 110, 40] => false [80, 110, 80] => true [20, 30, 110, 40, 50] => true
+// You can see this Input: flightLength movies Output: boolean True 
+// if there exists TWO different movies that add up EXACTLY to the flightLength Examples: flightLength 160  Movies [80, 110, 40] => false [80, 110, 80] => true [20, 30, 110, 40, 50] => true
 
 // const movies = [20, 30, 110, 40, 50]
 
